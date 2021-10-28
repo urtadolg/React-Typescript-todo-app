@@ -1,0 +1,35 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 20px auto;
+}
+
+.formContainer label {
+  font-weight: 700;
+  margin: 0;
+}
+
+.formContainer input {
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  margin: 8px 0;
+  padding: 0 10px;
+  border: none;
+  border-bottom: rgb(70, 70, 70) 2px solid;
+  background-color: rgb(238, 238, 238);
+}
+
+.formContainer button {
+  width: 100px;
+  padding: 8px 0;
+  background-color: rgb(204, 150, 0);
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.formContainer button:hover {
+  background-color: rgb(223, 163, 0);
+  cursor: pointer;
+}
